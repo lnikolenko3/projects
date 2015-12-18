@@ -1,0 +1,155 @@
+  <html>
+  <head>
+  <link rel="stylesheet" href="toggle.css">
+      <style type="text/css" media="all">
+	  @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+	  @import url(https://fonts.googleapis.com/css?family=Titillium+Web:600);
+	    form {
+			display:inline;
+		}
+        input#password {
+          width: 250px;
+        }
+        
+        input#username {
+            display:none;
+        }
+        
+        textarea {
+            width: 270px;
+        }
+        
+        body {
+          background-image:url("background.png"); 
+		  font-family: 'Titillium', Calibri, Arial, sans-serif;
+          color: white;
+        }
+		h1 {
+			font-family: 'Lato', Calibri, Arial, sans-serif;
+			text-align:center;
+			margin:5;
+			/*display:inline;*/
+		}
+		p {
+			margin-bottom: 5px;
+		}
+		#scale {
+			float:left;
+			width:120;
+			position:relative;
+			margin: 0 75;
+			
+		}
+		#hey {
+			display:block;
+			width:180;
+		}
+		#myCanvas {
+			display:none;
+		}
+		#passpic {
+			position:relative;
+			float:right;
+		}
+		
+      </style>
+    </head>
+  <body>
+  <script>
+  function swapper(){
+	  textcontainer = document.getElementById("textcontainer")
+	  piccontainer = document.getElementById("piccontainer")
+	  if(!document.getElementById("checkah").checked) {
+    	textcontainer.style.display="";
+		piccontainer.style.display="none";
+	  } else {
+      	textcontainer.style.display="none";
+		piccontainer.style.display="";
+      }
+	  /*
+	   document.getElementById("container").innerHTML = '<form><!--do not remove the below line. It does something weird. --><input type="text" id="username"><p>Password (check box for special chars):</p><input type="text" id="password"><input type="checkbox" name="special" value="special" id ="special">;'
+	   */
+}
+  </script>
+  <h1>PassFree</h1>
+  <div ="hey">
+  <div id="scale">
+  <label class="switch-light switch-android" onclick="swapper()">
+              <input id = "checkah" type="checkbox">
+              <span>
+                <span>Text</span>
+                <span>Pic</span>
+              </span>
+
+              <a></a>
+            </label>
+  </div>
+  </div>
+  
+  <br>
+  <div id= "textcontainer"><form><!--do not remove the below line. It does something weird. --><input type="text" id="username"><p>Password (check box for special chars):</p><input type="text" id="password"><input type="checkbox" name="special" value="special" id ="special"></div>
+  <div id ="piccontainer" style ="display:none;"><div id="yo" style="position:relative;"><div id="ho" style="position:absolute;"><br>
+  <button type="button" id="submit" >Submit</button>
+<input type="file" id="files" name="files[]" multiple /></div><br>
+<div id="bo" style="position:absolute; right:0;">
+<span id="importpic"><img width="40" height="47"src="http://www.colorcombos.com/images/colors/EEEEEE.png"></span>
+</div>
+</div>
+<output id="list"></output>
+<br>
+<br>
+<br>
+<canvas id="myCanvas" width="240" height="297" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas></div>
+      <p>Generated Password:</p>
+      <textarea id="genpass"></textarea>
+      </form>
+      <div id ="usercontent">
+      </div>
+      <div id = "passcontent">
+      </div>
+      
+    </body>
+  </html>
+
+
+<!--<html>
+  <html>
+  <head>
+      <style type="text/css" media="all">
+        input {
+          width: 200px;
+        }
+        
+        input#username {
+            display:none;
+        }
+        
+        textarea {
+            width: 200px;
+        }
+        
+        body {
+          background-color: gray;
+        }
+      </style>
+    </head>
+  <body>
+  <script src="get-text.js"></script>
+  <form>
+      --do not remove the below line. It does something weird. --
+      <input type="text" id="username">
+      
+      <p>Password:</p>
+      <input type="text" id="password">
+      <p>Generated Password:</p>
+      <textarea id="genpass"></textarea>
+      </form>
+      <div id ="usercontent">
+      </div>
+      <div id = "passcontent">
+      </div>
+    </body>
+  </html>
+-->
