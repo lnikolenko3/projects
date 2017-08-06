@@ -1,1 +1,0 @@
-I have partly written a board game that challenges the player to capture all the gnomes before others.
