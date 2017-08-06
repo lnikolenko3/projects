@@ -14,6 +14,6 @@ We used the SHA - 256 algorithm to generate these complex strings. The project i
 
 ######Team Members: Yeshy Manoharan, Themiya Chandraratna, Liubov (Nikki) Nikolenko, Iris Birman
 
-##Installation instructions##
+## Installation instructions ##
 The installation is very simple, but you need to make sure that your Firefox version is between 38.0-39.0.  
 Once you have the right version of the browser, just click on "Add Ons" -> "Install Add-On from File" and upload the .xpi file in the browser. And... you can start enjoing our extension ! :) 
