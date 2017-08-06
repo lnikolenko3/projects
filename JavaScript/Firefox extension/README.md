@@ -12,7 +12,8 @@ We also implemented a picture password feature. You can use any picture from you
 
 We used the SHA - 256 algorithm to generate these complex strings. The project is written in Javascript.
 
-######Team Members: Yeshy Manoharan, Themiya Chandraratna, Liubov (Nikki) Nikolenko, Iris Birman
+## Authors ##
+Yeshy Manoharan, Themiya Chandraratna, Liubov (Nikki) Nikolenko, Iris Birman
 
 ## Installation instructions ##
 The installation is very simple, but you need to make sure that your Firefox version is between 38.0-39.0.  
