@@ -7,6 +7,6 @@ Markup:
 * A [Snake Game](https://github.com/lnikolenko/projects/tree/master/C) written in C for GameBoy Advanced
 * A [Legoman Animation](https://github.com/lnikolenko/projects/tree/master/Python/Legoman%20Animation/p2a_object) coded in Python
 * A [Firefox Extension](https://github.com/lnikolenko/projects/tree/master/JavaScript/Firefox%20extension) designed to generate secure passwords for you, written in JavaScript  
-<p>
-If you any comments/questions/concerts or just want to chat, feel free to reach out to me though my emails (lnikolenko3@gatech.edu, nikki.nikolenko@gmail.com) or [LinkedIn](https://www.linkedin.com/in/liubovnikolenko/).</> 
+
+If you any comments/questions/concerts or just want to chat, feel free to reach out to me though my emails (lnikolenko3@gatech.edu, nikki.nikolenko@gmail.com) or [LinkedIn](https://www.linkedin.com/in/liubovnikolenko/).
 
