@@ -14,6 +14,6 @@ The game launches to the title screen. In order to go from the title screen to t
 to the title screen at any point in the game press "Select" key (your score will be reset to 0).
 The player wins the game, if the length of the snake will be greater than 200. 
 # Installation instructions #
-_Okay, cool, you convinved me, I wanna play! How do I install the game?_  
+_Okay, cool, you convinced me, I wanna play! How do I install the game?_  
 Download and install the GBA emulator (there are plenty of good options out there, but I highly recommend [Emulator Zone](http://www.emulator-zone.com/doc.php/gba/)) and dowload the [.gba file](https://github.com/lnikolenko/projects/blob/master/C/Snake.gba) from this repo. Then open your emulator and click "File"->"Open..." and select the .gba file. You are good to go!
  
